@@ -1,0 +1,155 @@
+h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #FFFBE9;
+    opacity: 70%;
+    margin: 0%;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #FFFBE9;
+    margin: 0;
+
+}
+h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+    color: #FFFBE9;
+
+}
+body{
+    margin: 0;
+    
+}
+.container{
+    background-color: #CEAB93;
+    float: left;
+    width: 35%;
+    height: 100%;
+    animation: 2s ease-in-out mymove;
+}
+
+@keyframes mymove {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.wholeBody{
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    float: right;
+    width: 65%;
+    height: 100%;
+    background-image: url("31a1667c2324cc78bd1c56db21d3a299\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: 2s ease-in-out mymove2;
+
+}    
+    
+@keyframes mymove2 {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.bg{
+
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    margin-top: 0;
+    padding-top: 350px;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+.about{
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+.content{
+    position: relative;
+    width: 13.8cm;
+    height: fit-content;
+    top: 10cm;
+    left: 2cm;
+    padding: 7px;
+
+}
+p{
+    font-family: 'Satisfy', cursive;
+    font-size: medium;
+    font-weight: 300;
+    font-size: 30px;
+    display: inline-block;
+    color:#FFFBE9;
+}
+hr{
+    border: 0;
+    border-top: solid;
+    color: bisque;
+}
+.b2{
+    height: 100vh;
+    width: 100%;
+    background-image: url("riya-01-01.png");
+    background-size: cover;
+    animation: 2s ease-in-out mymove;
+}
+.intro_body{
+    height: fit-content;
+    width: 17cm;
+    background-color: rgba(255, 228, 196, 0.793);
+    left: 10cm;  
+    top: 9cm;
+    position: relative  ;
+    padding: 15px;
+    animation: 2s ease-in-out mymove;
+}
+p{
+    margin: 0;
+    color: rgb(174, 143, 97);
+    animation: 2s ease-in-out mymove;
+}
+.heading{
+    
+    height: 2cm;
+    width: fit-content;
+    position: relative;
+    left: 10cm;
+    bottom: 3.8cm;
+    animation: 2s ease-in-out mymove;
+
+}
+.abt{
+    font-family: 'Sacramento', cursive;
+    color: rgb(174, 143, 97);
+    animation: 2s ease-in-out mymove;
+    font-size: 60px;
+}
+
+   
+
